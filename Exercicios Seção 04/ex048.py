@@ -1,5 +1,5 @@
 """
-Leia um valor inteir oem segundos, e imprima em horas, minutos e segundos.
+Leia um valor inteiro em segundos, e imprima em horas, minutos e segundos.
 """
 
 
