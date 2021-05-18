@@ -5,3 +5,9 @@ componentes deste vetor, armazenando o resultado em outro vetor. Os conjuntos tÃ
 """
 
 
+lista1 = [int(i) for i in input("Digite 10 numeros: ").split()]
+lista2 = []
+for i in lista1:
+    lista2.append(i**2)
+print(lista1)
+print(lista2)
