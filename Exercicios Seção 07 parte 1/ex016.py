@@ -5,16 +5,15 @@ direta; se for 2, mostre o vetor na ordem inversa. Caso, o código for diferente
 escreva uma mensagem informando que o código é inválido.
 """
 
-
 vetor = []
 for c in range(5):
     vetor.append(float(input(f"Digite o numero da posição {c}: ")))
 while True:
-    print("="*20)
+    print("=" * 20)
     op = int(input("Digite 0 para sair.\n"
-               "Digite 1 para mostrar o vetor na ordem direta.\n"
-               "Digite 2 para mostrar o vetor na ordem inversa.\n"
-               "OPÇÃO: "))
+                   "Digite 1 para mostrar o vetor na ordem direta.\n"
+                   "Digite 2 para mostrar o vetor na ordem inversa.\n"
+                   "OPÇÃO: "))
     print("=" * 20)
     if op == 0:
         print("Encerrando...")
